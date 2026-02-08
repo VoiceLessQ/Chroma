@@ -1,0 +1,129 @@
+# ============================================
+# Shader Options Language File
+# ============================================
+# This file defines the display text for shader options
+# in the OptiFine video settings screen.
+# 
+# Format:
+# option.<OPTION_NAME>=Display Name
+# option.<OPTION_NAME>.comment=Tooltip description
+# value.<OPTION_NAME>.<VALUE>=Display value
+# profile.<PROFILE_NAME>=Profile Display Name
+# screen.<SCREEN_NAME>=Screen Display Name
+# ============================================
+
+# ============================================
+# Profile Names
+# ============================================
+profile.DEFAULT=Default
+profile.LOW=Low (Performance)
+profile.MEDIUM=Medium (Balanced)
+profile.HIGH=High (Quality)
+profile.ULTRA=Ultra (Maximum Quality)
+
+# ============================================
+# Screen Names
+# ============================================
+screen.MAIN=Main Settings
+screen.SHADOWS=Shadow Settings
+screen.LIGHTING=Lighting Settings
+screen.POST_PROCESSING=Post Processing
+screen.AMBIENT_OCCLUSION=Ambient Occlusion
+screen.REFLECTIONS=Reflections
+screen.FOG=Fog Settings
+screen.WATER=Water Settings
+
+# ============================================
+# Shadow Options
+# ============================================
+option.SHADOW_RES=Shadow Resolution
+option.SHADOW_RES.comment=Higher values improve shadow quality but reduce performance.
+option.SHADOW_DIST=Shadow Distance
+option.SHADOW_DIST.comment=Maximum distance for shadow rendering.
+option.SHADOW_FILTER=Shadow Filter
+option.SHADOW_FILTER.comment=Smooths shadow edges for a softer look.
+
+value.SHADOW_RES.512=512px
+value.SHADOW_RES.1024=1024px
+value.SHADOW_RES.2048=2048px
+value.SHADOW_RES.4096=4096px
+
+# ============================================
+# Lighting Options
+# ============================================
+option.HAND_LIGHT=Hand Light
+option.HAND_LIGHT.comment=Enables dynamic lighting from held items.
+option.OLD_LIGHTING=Old Lighting
+option.OLD_LIGHTING.comment=Uses vanilla Minecraft lighting model.
+
+# ============================================
+# Ambient Occlusion Options
+# ============================================
+option.SSAO=Screen Space AO
+option.SSAO.comment=Adds realistic shadows in corners and crevices.
+option.SSAO_STRENGTH=AO Strength
+option.SSAO_STRENGTH.comment=Intensity of ambient occlusion effect.
+option.SSAO_RADIUS=AO Radius
+option.SSAO_RADIUS.comment=Sample radius for ambient occlusion.
+
+# ============================================
+# Post Processing Options
+# ============================================
+option.BLOOM=Bloom
+option.BLOOM.comment=Adds glow to bright areas of the scene.
+option.TONEMAP=Tone Mapping
+option.TONEMAP.comment=Color grading and HDR simulation.
+option.SATURATION=Saturation
+option.SATURATION.comment=Color intensity adjustment.
+option.CONTRAST=Contrast
+option.CONTRAST.comment=Difference between light and dark areas.
+option.BRIGHTNESS=Brightness
+option.BRIGHTNESS.comment=Overall scene brightness.
+
+# ============================================
+# Fog Options
+# ============================================
+option.FOG_ENABLED=Fog
+option.FOG_ENABLED.comment=Enables atmospheric fog rendering.
+option.FOG_DENSITY=Fog Density
+option.FOG_DENSITY.comment=Thickness of atmospheric fog.
+option.FOG_COLOR=Fog Color Mode
+option.FOG_COLOR.comment=Fog color calculation method.
+
+value.FOG_COLOR.0=Atmospheric
+value.FOG_COLOR.1=Sky Color
+value.FOG_COLOR.2=Custom
+
+# ============================================
+# Water Options
+# ============================================
+option.WATER_REFLECT=Water Reflections
+option.WATER_REFLECT.comment=Enables reflections on water surfaces.
+option.WATER_REFRACT=Water Refraction
+option.WATER_REFRACT.comment=Light bending through water.
+option.WATER_WAVE=Water Waves
+option.WATER_WAVE.comment=Animated water surface waves.
+
+# ============================================
+# Performance Options
+# ============================================
+option.RENDER_QUALITY=Render Quality
+option.RENDER_QUALITY.comment=Overall rendering resolution scale.
+option.SUPER_SAMPLING=Super Sampling
+option.SUPER_SAMPLING.comment=Anti-aliasing through supersampling.
+
+value.RENDER_QUALITY.0.5=50%
+value.RENDER_QUALITY.0.75=75%
+value.RENDER_QUALITY.1.0=100%
+value.RENDER_QUALITY.1.5=150%
+value.RENDER_QUALITY.2.0=200%
+
+# ============================================
+# Debug Options
+# ============================================
+option.DEBUG_VIEW=Debug View
+option.DEBUG_VIEW.comment=Shows intermediate rendering buffers.
+value.DEBUG_VIEW.0=Off
+value.DEBUG_VIEW.1=Depth Buffer
+value.DEBUG_VIEW.2=Normal Buffer
+value.DEBUG_VIEW.3=Shadow Map

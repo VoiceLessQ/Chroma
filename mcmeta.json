@@ -1,0 +1,17 @@
+{
+  "pack": {
+    "pack_format": 10,
+    "description": "Realistic Fog Shader Pack - Basic Implementation"
+  },
+  "shader": {
+    "ambient_occlusion": true,
+    "clouds": true,
+    "dynamic_shadows": true,
+    "entity_shadows": true,
+    "hand_light": true,
+    "rain_snow": true,
+    "sun_moon": true,
+    "water": true,
+    "version": "1.0.0"
+  }
+}

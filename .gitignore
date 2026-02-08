@@ -1,0 +1,56 @@
+# Compiled shader packs
+*.zip
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# Build outputs
+build/
+dist/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Node modules (if using build tools)
+node_modules/
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Java class files (if using Java tools)
+*.class
+*.jar
+*.war
+
+# Minecraft client/server files
+run/
+logs/
+crash-reports/
+screenshots/
+saves/
+options.txt
+optionsof.txt
